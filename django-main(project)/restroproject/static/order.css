@@ -1,0 +1,264 @@
+/*navbar section*/
+
+/* * {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    box-sizing: border-box;
+ }
+
+ html {
+    scroll-behavior: smooth;
+ }
+
+ #for-nav {
+    width: 100%;
+    background-color: white;
+    top: 0;
+    position: sticky;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    z-index: 1000;
+ }
+
+ #for-nav li {
+    margin: 0 10px;
+ }
+
+ #for-nav li a {
+    color: #000;
+    font-weight: 600;
+    font-size: 17px;
+    transition: 0.1s;
+ }
+
+ #for-nav li a::after {
+    content: '';
+    width: 0;
+    height: 2px;
+    background-color: #fac031;
+    display: block;
+    transition: 0.2s linear;
+ }
+
+ #for-nav li a:hover::after {
+    width: 100%;
+ }
+
+ #for-nav li a:hover {
+    color: #fac031;
+ }
+
+ #for-nav .logo img{
+    margin-left: 70px;
+ }
+
+ #nav-icon i {
+    font-size: 18px;
+    margin: 0 5px;
+    color: #000;
+    cursor: pointer;
+    transition: 0.3s;
+ }
+
+ #nav-icon i:hover {
+    color: #fac031;
+ }
+
+ #nav-ul .nav-item{
+   display: flex;
+   align-items: center;
+ }
+ #nav-ul .nav-item i{
+   position: relative;
+   bottom: 2px;
+   margin-right: 3px;
+   font-size: 19px;
+   color: #000;
+ }
+
+ #nav-ul .nav-item i:hover{
+   color: #fac031;
+ } */
+
+
+/*Order section*/
+
+#order {
+    user-select: none;
+}
+
+#ord-row {
+    min-height: 100vh;
+    background-image: url(/static/image/bg2.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+#ord-row h1 {
+    font-weight: 600;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    font-size: 55px;
+    padding-top: 45px;
+    color: #000;
+}
+
+#ord-row h1 span {
+    color: #fac031;
+    margin-right: 15px;
+    font-family: mv boli;
+}
+
+#ord-row h1 span::after {
+    content: '';
+    width: 100%;
+    height: 3px;
+    background: #fac031;
+    display: block;
+    position: relative;
+    bottom: 9px;
+}
+
+#ord-img {
+    display: flex;
+    justify-content: center;
+    align-items: center
+}
+
+/* form-1 */
+
+#form-1 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 25%;
+}
+
+#form-1 .input p{
+    font-weight: 600;
+    position: relative;
+    line-height: 15px;
+    top: 15px;
+}
+
+#form-1 .input input{
+    width: 285px;
+    height: 33px;
+    padding: 0 10px;
+    border: 2px solid #cccccc;
+    background-color: #eeeeee;
+    outline: none;
+    border-radius: 3px;
+}
+
+#form-1 .input input:focus{
+    border: 2px solid #fac031;
+}
+
+/* form-2 */
+
+#form-2{
+    display: flex;
+    align-items: center;
+    padding-top: 25%;
+}
+
+#form-2 .input p{
+    font-weight: 600;
+    position: relative;
+    line-height: 15px;
+    top: 15px;
+}
+
+#form-2 .input input{
+    width: 285px;
+    height: 33px;
+    padding: 0 10px;
+    border: 2px solid #cccccc;
+    background-color: #eeeeee;
+    outline: none;
+    border-radius: 3px;
+}
+
+#form-2 .input input:focus{
+    border: 2px solid #fac031;
+}
+
+#ord-btn{
+    border: none;
+    padding: 6px 0px;
+    background: #fac031;
+    color: white;
+    width: 20%;
+    text-align: center;
+    margin-top: 20px;
+    margin-left: 36px;
+    font-weight: bold;
+}
+
+
+
+/*Footer section*/
+
+/* #footer {
+    background: #cfcbcb;
+}
+
+#footer .row {
+    user-select: none;
+    padding-left: 5%;
+    padding-top: 30px;
+    gap: 32px;
+    text-align: center;
+}
+
+.row h2 {
+    padding-bottom: 12px;
+    color: #000;
+    font-size: 30px;
+    font-weight: 600;
+
+}
+
+.row h2 i {
+    font-size: 23px;
+    margin-right: 6px;
+    color: #000;
+    transition: 0.3s;
+}
+
+.row h2 i:hover {
+    color: darkblue;
+}
+
+.row p {
+    font-size: 15px;
+    font-weight: bold;
+}
+
+.row a {
+    text-decoration: none;
+    color: #000;
+    font-size: 15px;
+    font-weight: bold;
+ }
+
+.row #ftr-5 .icon i {
+    padding-left: 6px;
+    font-size: 17px;
+}
+
+.row #ftr-5 .icon i:hover {
+    color: #fac031;
+
+}
+
+.ftr-end p {
+    font-size: 16px;
+    padding-right: 50px;
+}
+
+.ftr-end span {
+    color: #fac031;
+} */

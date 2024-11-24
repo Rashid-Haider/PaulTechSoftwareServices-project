@@ -1,0 +1,271 @@
+ @import url(https://fonts.googleapis.com/css?family=Raleway);
+
+ /*navbar section*/
+
+ /* * {
+     margin: 0;
+     padding: 0;
+     font-family: sans-serif;
+     box-sizing: border-box;
+ }
+
+ html {
+     scroll-behavior: smooth;
+ }
+
+ #for-nav {
+     width: 100%;
+     background-color: white;
+     top: 0;
+     position: sticky;
+     box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+     z-index: 1000;
+ }
+
+ #for-nav li {
+     margin: 0 10px;
+ }
+
+ #for-nav li a {
+     color: #000;
+     font-weight: 600;
+     font-size: 17px;
+     transition: 0.1s;
+ }
+
+ #for-nav li a::after {
+     content: '';
+     width: 0;
+     height: 2px;
+     background-color: #fac031;
+     display: block;
+     transition: 0.2s linear;
+ }
+
+ #for-nav li a:hover::after {
+     width: 100%;
+ }
+
+ #for-nav li a:hover {
+     color: #fac031;
+ }
+
+ #for-nav .logo img {
+     margin-left: 70px;
+ }
+
+ #nav-icon i {
+     font-size: 18px;
+     margin: 0 5px;
+     color: #000;
+     cursor: pointer;
+     transition: 0.3s;
+ }
+
+ #nav-icon i:hover {
+     color: #fac031;
+ }
+
+ #nav-ul .nav-item {
+     display: flex;
+     align-items: center;
+ }
+
+ #nav-ul .nav-item i {
+     position: relative;
+     bottom: 2px;
+     margin-right: 3px;
+     font-size: 19px;
+     color: #000;
+ }
+
+ #nav-ul .nav-item i:hover {
+     color: #fac031;
+ } */
+
+
+ /*gallary section*/
+
+ .container {
+     margin-top: 40px;
+     user-select: none;
+ }
+
+ .container h1 {
+     margin-bottom: 30px;
+     font-size: 55px;
+     padding-top: 20px;
+     display: flex;
+     justify-content: center;
+     text-align: center;
+ }
+
+ .container span {
+     color: #fac031;
+     margin-left: 15px;
+     font-family: mv boli;
+     font-weight: 700;
+ }
+
+ .container span::after {
+     content: '';
+     height: 2px;
+     width: 100%;
+     bottom: 8px;
+     background: #fac031;
+     bottom: 9px;
+     display: block;
+     position: relative;
+ }
+
+ .title {
+     color: #1a1a1a;
+     text-align: center;
+     margin-bottom: 10px
+ }
+
+ .content {
+     position: relative;
+     width: 100%;
+     max-width: 410px;
+     margin: aut0;
+     overflow: hidden
+ }
+
+ #gall-cont p {
+     text-align: justify;
+ }
+
+ .content .content-overlay {
+     background: rgba(0, 0, 0, 0.7);
+     position: absolute;
+     height: 99%;
+     width: 100%;
+     left: 0;
+     top: 0;
+     bottom: 0;
+     right: 0;
+     opacity: 0;
+     -webkit-transition: all 0.4s ease-in-out 0s;
+     -moz-transition: all 0.4s ease-in-out 0s;
+     transition: all 0.4s ease-in-out 0s
+ }
+
+ .content:hover .content-overlay {
+     opacity: 1
+ }
+
+ .content-image {
+     width: 100%
+ }
+
+ .content-image img {
+     box-shadow: 1px 1px 5px 1px rgba(0, 0, 0, 0.1);
+ }
+
+ .content-details {
+     position: absolute;
+     text-align: center;
+     padding-left: 1em;
+     padding-right: 1em;
+     width: 100%;
+     top: 50%;
+     left: 50%;
+     opacity: 0;
+     -webkit-transform: translate(-50%, -50%);
+     -moz-transform: translate(-50%, -50%);
+     transform: translate(-50%, -50%);
+     -webkit-transition: all 0.3s ease-in-out 0s;
+     -moz-transition: all 0.3s ease-in-out 0s;
+     transition: all 0.3s ease-in-out 0s
+ }
+
+ .content:hover .content-details {
+     top: 50%;
+     left: 50%;
+     opacity: 1
+ }
+
+ .content-details h3 {
+     color: #fac031;
+     font-weight: 500;
+     letter-spacing: 0.15em;
+     margin-bottom: 0.5em;
+     text-transform: uppercase
+ }
+
+ .content-details p {
+     color: #fff;
+     font-size: 0.8em
+ }
+
+ .fadeIn-bottom {
+     top: 80%
+ }
+
+
+
+
+ /*Footer section*/
+
+
+ /* #footer {
+     background: #cfcbcb;
+ }
+
+ #footer .row {
+     user-select: none;
+     padding-left: 5%;
+     padding-top: 30px;
+     gap: 32px;
+     text-align: center;
+ }
+
+ .row h2 {
+     padding-bottom: 12px;
+     color: #000;
+     font-size: 30px;
+     font-weight: 600;
+
+ }
+
+ .row h2 i {
+     font-size: 23px;
+     margin-right: 6px;
+     color: #000;
+     transition: 0.3s;
+ }
+
+ .row h2 i:hover {
+     color: darkblue;
+ }
+
+ .row p {
+     font-size: 15px;
+     font-weight: bold;
+ }
+
+ .row a {
+     text-decoration: none;
+     color: #000;
+     font-size: 15px;
+     font-weight: bold;
+ }
+
+ .row #ftr-5 .icon i {
+     padding-left: 6px;
+     font-size: 17px;
+ }
+
+ .row #ftr-5 .icon i:hover {
+     color: #fac031;
+ }
+
+ .ftr-end p {
+     font-size: 16px;
+     padding-right: 50px;
+ }
+
+ .ftr-end span {
+     color: #fac031;
+ } */

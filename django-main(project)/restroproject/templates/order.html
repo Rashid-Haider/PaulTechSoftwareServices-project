@@ -1,0 +1,70 @@
+{% include 'header.html' %}
+    
+    <!-- Order -->
+
+
+    <div class="container-fluid" id="order">
+        <div class="row" id="ord-row">
+            <h1><span>Order</span>Now</h1>
+            <div class="col-md-6" id="ord-img">
+                <img src="/static/image/order_image.png" alt="" width="525px">
+            </div>
+
+            <div class="col-md-6">
+                <!-- form row -->
+                <div class="row" id="form-row">
+                    <div class="col-md-6" id="form-1">
+                        <form action="#">
+                            <div class="input">
+                                <p>Name</p>
+                                <input type="text" placeholder="your name">
+                            </div>
+
+                            <div class="input">
+                                <p>Number</p>
+                                <input placeholder="your number">
+                            </div>
+
+                            <div class="input">
+                                <p>Your Order</p>
+                                <input placeholder="food name">
+                            </div>
+                        </form>
+
+                    </div>
+
+                    <div class="col-md-6" id="form-2">
+                        <form action="#">
+
+                            <div class="input">
+                                <p>Email</p>
+                                <input type="email" placeholder="your name">
+                            </div>
+
+                            <div class="input">
+                                <p>How much</p>
+                                <input type="number" placeholder="total no orders">
+                            </div>
+
+                            <div class="input">
+                                <p>Address</p>
+                                <input placeholder="your address">
+                            </div>
+                        </form>
+                    </div>
+                </div>
+
+                <div class="row">
+                    <div class="col-md-12">
+                        <button id="ord-btn" type="button">Order Now</button>
+                    </div>
+                </div>
+            </div>
+
+
+        </div>
+
+    </div>
+
+
+{% include 'footer.html' %}
